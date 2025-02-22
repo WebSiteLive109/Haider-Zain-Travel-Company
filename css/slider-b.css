@@ -1,0 +1,63 @@
+
+/* Theme-background */
+.scroll-top,
+.navbar-wrap > ul > li > a::before,
+.header-action > ul > li.header-shop-cart > a,
+.header-shop-cart .minicart .checkout-link a,
+.transparent-btn:hover,
+.faq-wrap .ui-accordion-header > span,
+.video-play a,
+.slider-active .slick-dots li.slick-active button,
+.blog-post-item .blog-post-tag,
+.fw-title h5::before,
+.footer-newsletter button,
+.green-btn,
+.about-info-list ul li:hover .about-info-icon i,
+.shop-item:hover .shop-thumb span,
+.product-weight ul li.active,
+.related-product-active .slick-arrow:hover,
+.tag-list ul li a:hover,
+.object,
+.header-search-wrap form button,
+.header-category > a,
+.product-menu button.active,
+.h-product-info ul li.discount {
+	background: #158285;
+}
+
+.slider-active .slick-dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1;     position: absolute;
+    margin-top: -50px;
+    left: 48%;
+}
+.slider-active .slick-dots li {
+	display: block;
+	line-height: 0;
+}
+.slider-active .slick-dots li button {
+	text-indent: -99999px;
+	border: 2px solid #abb3ba;
+	padding: 0;
+	background: transparent;
+	line-height: 1;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	transition: .3s linear;
+	cursor: pointer;
+	margin: 0 13px; 
+}
+.slider-active .slick-dots li.slick-active button {
+	border-color: #006c35;
+}
+.slider-active .slick-track {
+	padding-bottom: 0px;
+}
+.slick-slide:focus {
+	outline: none;
+}
+
+
