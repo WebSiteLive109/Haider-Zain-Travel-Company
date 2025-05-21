@@ -61,8 +61,8 @@
 	width: 170px;
 }
 	.hidden-xs{display: none !important;}
-.col-xs-6 {width:45% !important; margin-left: 10px !important;}
-.col-sm-6 {width:45% !important; margin-left: 10px !important;}
+.col-xs-6 {width:50% !important; margin-left: 20px !important;}
+.col-sm-6 {width:50% !important; margin-left: 20px !important;}
 .col-12 {margin-top:0%;}
 }
 .img {
